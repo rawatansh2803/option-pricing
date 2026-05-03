@@ -21,7 +21,7 @@ Key Innovations
 
 My project translate the financial semi-martingale assumptions into a computer vision task.
 This repo contains just a faction of my experiments of using various neural networks and ml algorithms for option pricing and option hedging in real world portfolios in real derivative markets . 
-This project uses simulated data but I also have versions where we have used real nse market data along with data aquisition stratergies . 
+This project uses simulated data but I also have versions where we have used real nse market data along with data aquisition stratergies ( one of it in which real market data of nse was used is included in this repo by file name cnn3.ipny . If you require any other files do let me know at anshuman.rawat@students.iiserpune.ac.in )
 
 Normalized Targets: Instead of predicting absolute prices (which vary wildly by spot level), the model predicts the Normalized Time Value ($(Price - Intrinsic) / Spot$). This ensures the model is scale-invariant and generalizes across different market regimes.
 
