@@ -19,6 +19,10 @@ Input Tensor Shape: [Batch, 20 (Time), 11 (Strikes), 12 (Features)].
 
 Key Innovations
 
+My project translate the financial semi-martingale assumptions into a computer vision task.
+This repo contains just a faction of my experiments of using various neural networks and ml algorithms for option pricing and option hedging in real world portfolios in real derivative markets . 
+This project uses simulated data but I also have versions where we have used real nse market data along with data aquisition stratergies . 
+
 Normalized Targets: Instead of predicting absolute prices (which vary wildly by spot level), the model predicts the Normalized Time Value ($(Price - Intrinsic) / Spot$). This ensures the model is scale-invariant and generalizes across different market regimes.
 
 Squeeze-and-Excitation (SE) Blocks: We utilize SE blocks to perform channel-wise feature recalibration. This allows the model to prioritize specific financial indicators (like Implied Volatility) depending on the market context.
